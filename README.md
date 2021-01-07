@@ -1,11 +1,14 @@
-Horberlan Brito
+<h1 align="center"> Horberlan Brito </h1>
+
 ============
+<br>Age: 20
+<br>Single
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+>  Back-End / Senior Developer. <br>
+>  Graduating in Biological Sciences at the Federal University of Paraíba (Brazil).
+>  With emphasis on bioinformatics and systems biology.
 
 ----
 
@@ -13,7 +16,8 @@ Education
 ---------
 
 2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+
+:   **Course Technician of Computer. Technological axis:**; E.E.E.M.T. CRISTIANO CARTAXO (Cajazeira, PB, Brazil)
 
     *Thesis title: Deep Learning Approaches to the Self-Awesomeness
      Estimation Problem*
