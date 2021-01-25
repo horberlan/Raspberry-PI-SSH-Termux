@@ -10,7 +10,7 @@ $ pkg apt install openssh
 ```
 
   <p >  
-    <img align="right" src="https://raw.githubusercontent.com/horberlan/Raspberry-PI-via-SSH-from-Termunx/main/WPSApp.png?token=ALEU6AZPDOKGIISERKO5MJDAB4A2C" width="320" height="">
+    <img align="right" src="https://raw.githubusercontent.com/horberlan/Raspberry-PI-via-SSH-from-Termunx/main/WPSApp.png" width="320" height="">
   </p>
 
 You can see the IP of raspberry using  <a href="https://play.google.com/store/apps/details?id=com.themausoft.wpsapp&hl=en&gl=US" target="_blank" title="HTML Tutorials">WPSApp</a> on your android sistem.
@@ -36,7 +36,7 @@ you are now connected to RPI over an SSH connection, if you want to connect to t
 pi@raspberrypi:~ $ sudo raspi-config
 ```
 Go to the Raspberry Pi OS configuration panel with this command.
-<img align="left" src="https://raw.githubusercontent.com/horberlan/Raspberry-PI-via-SSH-from-Termunx/main/raspi-config.png?token=ALEU6A5CHQ5UMV4FFJOKWBDAB4BIA" width="320" height="">
+<img align="left" src="https://raw.githubusercontent.com/horberlan/Raspberry-PI-via-SSH-from-Termunx/main/raspi-config.png" width="320" height="">
 
 * First using ***&#8595;***, go to```Update``` to get the latest version of this application.
 * Go to ```Interface Options``` and activate the connection option ```VNC``` and then eneble. Use ***&#8633;*** to go to Back.
