@@ -33,7 +33,10 @@ you are now connected to RPI over an SSH connection, if you want to connect to t
 ```
 pi@raspberrypi:~ $ sudo raspi-config
 ```
-Go to the Raspberry Pi OS configuration panel with this command.
+ 
+Go to the Raspberry Pi OS configuration panel with raspi-config. 
+<a href="https://www.raspberrypi.org/documentation/configuration/raspi-config.md" target="_blank" title="raspi-config">raspi-config</a> is the Raspberry Pi configuration tool that brings together the main constructions containing the basic and advanced features for that OS.  
+
 <img align="left" src="https://raw.githubusercontent.com/horberlan/Raspberry-PI-via-SSH-from-Termunx/main/raspi-config.png" width="320" height="">
 
 * First using ***&#8595;***, go to```Update``` to get the latest version of this application.
