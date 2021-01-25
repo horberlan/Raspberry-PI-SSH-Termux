@@ -9,9 +9,9 @@ $ pkg update
 $ pkg upgrade
 $ pkg apt install openssh
 ```
-<p><img align="right" src="https://raw.githubusercontent.com/horberlan/Raspberry-PI-via-SSH-from-Termunx/main/WPSApp.png" width="320" height=""></p>
+<p><img align="right" alt="Termux" src="https://raw.githubusercontent.com/horberlan/Raspberry-PI-via-SSH-from-Termunx/main/WPSApp.png" width="320" height=""></p>
 
-You can see the IP of raspberry using  <a href="https://play.google.com/store/apps/details?id=com.themausoft.wpsapp&hl=en&gl=US" target="_blank" title="HTML Tutorials">WPSApp</a> on your android sistem. This is a tool to manipulate your router, configure and see connected users. 
+You can see the IP of raspberry using  <a href="https://play.google.com/store/apps/details?id=com.themausoft.wpsapp&hl=en&gl=US" target="_blank" title="WPSApp">WPSApp</a> on your android sistem. This is a tool to manipulate your router, configure and see connected users. 
 
 
 After installing the WPSApp, navigate to the  ***DEVICES*** tab and update the search to find your Rapberry PI's IP address on your smartphone.
