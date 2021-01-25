@@ -36,7 +36,12 @@ pi@192.168.0.107's password: raspberry
 
 pi@raspberrypi:~ $
 ```
-you are now connected to RPI over an SSH connection, if you want to connect to the VNC viewer to remotely control the desktop with your Android, follow these steps:
+you are now connected to RPI over an SSH connection, if you want to connect to the <a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank" title="VNC Viewer">VNC viewer</a> to remotely control the desktop with your Android, follow these steps:
 ```
 pi@raspberrypi:~ $ sudo raspiconfig
 ```
+Vá para o painel de configuração da Raspberry Pi OS com este comando.
+*primeiro vá até```update raspiconfig```para buscar a versão mais recente desta aplicação.
+*Agora
+
+pressione a função "***&#8633;***" para descer no submenu e escolha a opção ***finish***. aguarde o sistema reiniciar 
