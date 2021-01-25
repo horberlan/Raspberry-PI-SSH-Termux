@@ -34,8 +34,7 @@ pi@192.168.0.107's password: raspberry
 
 pi@raspberrypi:~ $
 ```
-Agora você esta conectado na RPI, se você deseja conectar ao NVC viewer para realizar o controle do desktop remotamente  siga os seguintes passos:
+You are now connected to the RPI, if you want to connect to the NVC viewer to remotely control the desktop with your Android, follow these steps:
 ```
 pi@raspberrypi:~ $ sudo raspiconfig
-pi@raspberrypi:~ $
 ```
