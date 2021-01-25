@@ -40,11 +40,14 @@ pi@raspberrypi:~ $
 ```
 you are now connected to RPI over an SSH connection, if you want to connect to the <a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank" title="VNC Viewer">VNC viewer</a> to remotely control the desktop with your Android, follow these steps:
 ```
-pi@raspberrypi:~ $ sudo raspiconfig
+pi@raspberrypi:~ $ sudo raspi-config
 ```
 Vá para o painel de configuração da Raspberry Pi OS com este comando.
 
-* Primeiro usando ***&#8595;***, vá até```update raspiconfig```para buscar a versão mais recente desta aplicação.
-* Agora vá até a configuração de resolução da tela para que o desktop da RPI se adpte a do smarthphone
+* Primeiro usando ***&#8595;***, vá até```Update```para buscar a versão mais recente desta aplicação.
+* Vá até```Interface Options```e ative a opção de coneção```VNC``` e posteriomente em eneble. Use ***&#8633;*** para ir em Back. 
+* Posteriormente acesse```Display Options``` &#8674; ```Resolution``` &#8674; choose option ```Defaoult```. Isso fará com que a resolução de tela da raspberry se adpte a do smarthphone.
 
-pressione a função "***&#8633;***" para descer no submenu e escolha a opção ***finish***. aguarde o sistema reiniciar 
+* Finalmente, acesse ```System Options``` e navegue até ```Boot / Auto Login``` e escolha a opção ```Desktop Autologin```.
+
+Pressione a função "***&#8633;***" para descer no submenu e escolha a opção ***finish***. aguarde o sistema reiniciar. 
