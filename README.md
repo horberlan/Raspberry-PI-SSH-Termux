@@ -19,14 +19,7 @@ You can see the IP of raspberry using  <a href="https://play.google.com/store/ap
 After installing the WPSApp, navigate to the  ***DEVICES*** tab and update the search to find your Rapberry PI's IP address on your smartphone.
 
 
-
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-
-
+<br><br><br><br><br><br><br><br><br>
 * After copying the IP to the clipboard, use the ssh connection to access the standard user "pi":
 
 
@@ -42,12 +35,15 @@ you are now connected to RPI over an SSH connection, if you want to connect to t
 ```
 pi@raspberrypi:~ $ sudo raspi-config
 ```
-Vá para o painel de configuração da Raspberry Pi OS com este comando.
+Go to the Raspberry Pi OS configuration panel with this command.
+<img align="left" src="https://raw.githubusercontent.com/horberlan/Raspberry-PI-via-SSH-from-Termunx/main/raspi-config.png?token=ALEU6A5CHQ5UMV4FFJOKWBDAB4BIA" width="320" height="">
 
-* Primeiro usando ***&#8595;***, vá até```Update```para buscar a versão mais recente desta aplicação.
-* Vá até```Interface Options```e ative a opção de coneção```VNC``` e posteriomente em eneble. Use ***&#8633;*** para ir em Back. 
-* Posteriormente acesse```Display Options``` &#8674; ```Resolution``` &#8674; choose option ```Defaoult```. Isso fará com que a resolução de tela da raspberry se adpte a do smarthphone.
+* First using ***&#8595;***, go to```Update``` to get the latest version of this application.
+* Go to ```Interface Options``` and activate the connection option ```VNC``` and then eneble. Use ***&#8633;*** to go to Back.
+* Subsequently access ```Display Options``` &#8674; ```Resolution``` & # 8674; choose option ```Defaoult```. This will make the screen resolution of the raspberry match that of the smarthphone.
+* Finally, go to ```System Options``` and navigate to ```Boot / Auto Login``` and choose the option` `Desktop Autologin``.
 
-* Finalmente, acesse ```System Options``` e navegue até ```Boot / Auto Login``` e escolha a opção ```Desktop Autologin```.
+Press the function "***&#8633;***" to go down in the submenu and choose the option ***finish***. wait for the system to restart.
 
-Pressione a função "***&#8633;***" para descer no submenu e escolha a opção ***finish***. aguarde o sistema reiniciar. 
+<p align="center">Liked? Get me a Star :star:<p/>
+
