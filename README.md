@@ -26,7 +26,9 @@ After installing the WPSApp, navigate to the  ***DEVICES*** tab and update the s
 
 
 
-*After copying the IP to the clipboard, use the ssh connection to access the standard user "pi":
+
+* After copying the IP to the clipboard, use the ssh connection to access the standard user "pi":
+
 
 ```terminal
 $ ssh pi@192.168.0.107
@@ -41,7 +43,8 @@ you are now connected to RPI over an SSH connection, if you want to connect to t
 pi@raspberrypi:~ $ sudo raspiconfig
 ```
 Vá para o painel de configuração da Raspberry Pi OS com este comando.
-*primeiro vá até```update raspiconfig```para buscar a versão mais recente desta aplicação.
-*Agora
+
+* Primeiro vá até```update raspiconfig```para buscar a versão mais recente desta aplicação.
+* Agora vá até a configuração de resolução da tela para que o desktop da RPI se adpte a do smarthphone
 
 pressione a função "***&#8633;***" para descer no submenu e escolha a opção ***finish***. aguarde o sistema reiniciar 
