@@ -1,12 +1,14 @@
-### Connect a Raspberry PI via SSH from Termunx Android
+# Connect a Raspberry PI via SSH from Termunx Android<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Termux_2.png" width="" height="40px">
+
 
 To install Termux app  <a href="https://termux.com/" target="_blank" title="HTML Tutorials">click here</a>.
-After install this aplication, you will install ***openssh*** to realize connection with raspberry PI:
+After install this aplication, you will install ***openssh*** package to realize connection ssh with raspberry PI or other systems:
 ```terminal
 $ Apt update
 $ Apt upgrade
 $ dpkg apt install openssh
 ```
+
 <p > 
 <img align="right" src="https://raw.githubusercontent.com/horberlan/curiculo/main/WPSApp.png?token=ALEU6A4TGSUPGSPJVTTAIV3AB3QUK" width="320" height="">
 </p>
@@ -24,7 +26,7 @@ After installing the WPSApp, navigate to the  ***DEVICES*** tab and update the s
 
 
 
-***After installation type:***
+*After copying the IP to the clipboard, use the ssh connection to access the standard user "pi":
 
 ```terminal
 $ ssh pi@192.168.0.107
@@ -34,7 +36,7 @@ pi@192.168.0.107's password: raspberry
 
 pi@raspberrypi:~ $
 ```
-You are now connected to the RPI, if you want to connect to the NVC viewer to remotely control the desktop with your Android, follow these steps:
+you are now connected to RPI over an SSH connection, if you want to connect to the VNC viewer to remotely control the desktop with your Android, follow these steps:
 ```
 pi@raspberrypi:~ $ sudo raspiconfig
 ```
