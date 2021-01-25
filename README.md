@@ -9,9 +9,9 @@ $ pkg upgrade
 $ pkg apt install openssh
 ```
 
-<p > 
-<img align="right" src="https://raw.githubusercontent.com/horberlan/curiculo/main/WPSApp.png?token=ALEU6A3ZJPL4CUZV2UJMWRDAB3SEK" width="320" height="">
-</p>
+  <p >  
+    <img align="right" src="https://raw.githubusercontent.com/horberlan/Raspberry-PI-via-SSH-from-Termunx/main/WPSApp.png?token=ALEU6AZPDOKGIISERKO5MJDAB4A2C" width="320" height="">
+  </p>
 
 You can see the IP of raspberry using  <a href="https://play.google.com/store/apps/details?id=com.themausoft.wpsapp&hl=en&gl=US" target="_blank" title="HTML Tutorials">WPSApp</a> on your android sistem.
 
