@@ -4,9 +4,9 @@
 To install Termux app  <a href="https://termux.com/" target="_blank" title="HTML Tutorials">click here</a>.
 After install this aplication, you will install ***openssh*** package to realize connection ssh with raspberry PI or other systems:
 ```terminal
-$ Apt update
-$ Apt upgrade
-$ dpkg apt install openssh
+$ pkg update
+$ pkg upgrade
+$ pkg apt install openssh
 ```
 
 <p > 
@@ -44,7 +44,7 @@ pi@raspberrypi:~ $ sudo raspiconfig
 ```
 Vá para o painel de configuração da Raspberry Pi OS com este comando.
 
-* Primeiro vá até```update raspiconfig```para buscar a versão mais recente desta aplicação.
+* Primeiro usando ***&#8595;***, vá até```update raspiconfig```para buscar a versão mais recente desta aplicação.
 * Agora vá até a configuração de resolução da tela para que o desktop da RPI se adpte a do smarthphone
 
 pressione a função "***&#8633;***" para descer no submenu e escolha a opção ***finish***. aguarde o sistema reiniciar 
