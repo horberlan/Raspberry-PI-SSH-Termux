@@ -1,5 +1,7 @@
 # Connect a Raspberry PI via SSH from Termux Android <img align="right" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Termux_2.png" width="" height="40px">
-To install Termux app  <a href="https://termux.com/" target="_blank" title="HTML Tutorials">click here</a>.
+
+* To make your Raspberry PI automatically connect to the router, edit and install this file in the ```/boot``` folder.
+* To install Termux app  <a href="https://termux.com/" target="_blank" title="HTML Tutorials">click here</a>.
 After install this aplication, you will install ***openssh*** package to realize connection ssh with raspberry PI or other systems:
 ```terminal
 $ pkg update
