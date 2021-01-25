@@ -1,7 +1,7 @@
 # Connect Raspberry PI via SSH from Termux Android <img align="right" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Termux_2.png" width="" height="40px"><img align="right" src="https://www.raspberrypi.org/app/uploads/2011/10/Raspi-PGB001.png" width="" height="40px">
 
 
-* To make your Raspberry PI automatically connect to the router, edit and install <a href="https://github.com/horberlan/Raspberry-PI-via-SSH-from-Termux/blob/main/wpa_supplicant.conf" target="_blank" title="wpa supplicant">this file</a> in the ```/boot``` folder.
+* To make your Raspberry PI automatically connect to the router, edit and move <a href="https://github.com/horberlan/Raspberry-PI-via-SSH-from-Termux/blob/main/wpa_supplicant.conf" target="_blank" title="wpa supplicant">this file</a> in the ```/boot``` folder  and reboot.
 * To install Termux app  <a href="https://termux.com/" target="_blank" title="HTML Tutorials">click here</a>.
 After install this aplication, you will install ***openssh*** package to realize connection ssh with raspberry PI or other systems:
 ```terminal
