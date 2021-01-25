@@ -8,7 +8,7 @@ $ Apt upgrade
 $ dpkg apt install openssh
 ```
 <p > 
-<img align="right" src="https://raw.githubusercontent.com/horberlan/curiculo/main/WPSApp.png?token=ALEU6AYBNWRQ2PUUUSPSRL3AB3PIG" width="320" height="">
+<img align="right" src="https://raw.githubusercontent.com/horberlan/curiculo/main/WPSApp.png?token=ALEU6A2DMEGH7RBETBURFFTAB3P4Q" width="320" height="">
 </p>
 
 You can see the IP of raspberry using  <a href="https://play.google.com/store/apps/details?id=com.themausoft.wpsapp&hl=en&gl=USWPSApp" target="_blank" title="HTML Tutorials">WPSApp</a> on your android sistem.
@@ -27,10 +27,15 @@ After installing the WPSApp, navigate to the  ***DEVICES*** tab and update the s
 ***After installation type:***
 
 ```terminal
-$ Ssh pi@192.168.0.0
+$ ssh pi@192.168.0.107
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 
-pi@192.168.0.107's password:
+pi@192.168.0.107's password: raspberry
 
-+pi@raspberrypi:~ $
+pi@raspberrypi:~ $
+```
+Agora você esta conectado na RPI, se você deseja conectar ao NVC viewer para realizar o controle do desktop remotamente  siga os seguintes passos:
+```
+pi@raspberrypi:~ $ sudo raspiconfig
+pi@raspberrypi:~ $
 ```
