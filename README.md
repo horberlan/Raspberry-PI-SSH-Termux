@@ -16,8 +16,7 @@ You can see the IP of raspberry using  <a href="https://play.google.com/store/ap
 
 After installing the WPSApp, navigate to the  ***DEVICES*** tab and update the search to find your Rapberry PI's IP address on your smartphone.
 
-
-<br><br>
+<br>
 * After copying the IP to the clipboard, use the ssh connection to access the standard user "pi":
 
 
