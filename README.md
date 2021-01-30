@@ -7,7 +7,7 @@ After install this aplication, you will install ***openssh*** package to realize
 ```terminal
 $ pkg update
 $ pkg upgrade
-$ pkg apt install openssh
+$ pkg install openssh
 ```
 <p><img align="right" alt="Termux" src="https://raw.githubusercontent.com/horberlan/Raspberry-PI-via-SSH-from-Termunx/main/WPSApp.png" width="320" height=""></p>
 
