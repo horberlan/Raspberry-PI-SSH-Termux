@@ -29,6 +29,8 @@ pi@192.168.0.107's password: raspberry
 
 pi@raspberrypi:~ $
 ```
+You might want to try <a href="https://github.com/horberlan/Raspberry-PI-SSH-Termux/blob/main/ssh.sh"> this SSH file<a>  to conect autologin.
+ 
 you are now connected to RPI over an SSH connection, if you want to connect to the <a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank" title="VNC Viewer">VNC viewer</a> to remotely control the desktop with your Android, follow these steps:
 ```
 pi@raspberrypi:~ $ sudo raspi-config
