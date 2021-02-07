@@ -46,6 +46,3 @@ Go to the Raspberry Pi OS configuration panel with raspi-config.
 * Finally, go to ```System Options``` and navigate to ```Boot / Auto Login``` and choose the option ```Desktop Autologin```.
 
 Press the function "***&#8633;***" to go down in the submenu and choose the option ***finish***. wait for the system to restart.
-<br>
-<p align="center">Liked? Get me a Star :star:<p/>
-
