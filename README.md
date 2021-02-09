@@ -41,7 +41,7 @@ Go to the Raspberry Pi OS configuration panel with raspi-config.
 <img align="left" src="https://raw.githubusercontent.com/horberlan/Raspberry-PI-via-SSH-from-Termunx/main/raspi-config.png" width="320" height="">
 
 * First using ***&#8595;***, go to```Update``` to get the latest version of this application.
-* Go to ```Interface Options``` and activate the connection option ```VNC``` and then eneble. Use ***&#8633;*** to go to Back.
+* Go to ```Interface Options``` and activate the connection option ```VNC``` and then eneble. Use ***&#8633;*** to go Back.
 * Subsequently access ```Display Options``` &#8674; ```Resolution``` &#8674; choose option ```Defaoult```. This will make the screen resolution of the raspberry match that of the smarthphone.
 * Finally, go to ```System Options``` and navigate to ```Boot / Auto Login``` and choose the option ```Desktop Autologin```.
 
