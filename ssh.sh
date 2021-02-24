@@ -7,3 +7,4 @@ read -p 'User server: ' User
 read -p 'Password server: ' passwd
 
 sshpass -p $passwd ssh $User@$ip
+
